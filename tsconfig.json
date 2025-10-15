@@ -2,5 +2,24 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/landing-e2e"
+    },
+    {
+      "path": "./apps/landing"
+    },
+    {
+      "path": "./apps/client-e2e"
+    },
+    {
+      "path": "./apps/client"
+    },
+    {
+      "path": "./apps/business-e2e"
+    },
+    {
+      "path": "./apps/business"
+    }
+  ]
 }
