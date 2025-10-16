@@ -1,0 +1,69 @@
+<div mat-dialog-content style="max-width: 500px">
+  <h4 class="mat-headline-6 m-b-16">{{ data?.action }}</h4>
+
+  @if(data?.action === 'Edit') {
+  <form [formGroup]="options" class="basic-form">
+    <div class="row">
+      <!-- col -->
+      <div class="col-12">
+        <mat-form-field appearance="outline" class="w-100">
+          <input
+            matInput
+            placeholder="Edit Title"
+            formControlName="title"
+          />
+        </mat-form-field>
+      </div>
+      <!-- col -->
+      <div class="col-12">
+        <mat-form-field appearance="outline" class="w-100">
+          <input
+            matInput
+            placeholder="Change Color"
+            type="color"
+            formControlName="color"
+          />
+        </mat-form-field>
+      </div>
+      <!-- col -->
+      <div class="col-sm-6">
+        <mat-form-field appearance="outline" class="w-100">
+          <input
+            matInput
+            [matDatepicker]="startDateDP"
+            placeholder="Start Date"
+            name="startDate"
+            formControlName="start"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="startDateDP"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #startDateDP></mat-datepicker>
+        </mat-form-field>
+      </div>
+      <!-- col -->
+      <div class="col-sm-6">
+        <mat-form-field appearance="outline" class="w-100">
+          <input
+            matInput
+            [matDatepicker]="endDateDP"
+            placeholder="End Date"
+            name="endDate"
+            formControlName="end"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="endDateDP"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #endDateDP></mat-datepicker>
+        </mat-form-field>
+      </div>
+    </div>
+  </form>
+  }
+
+  <button mat-flat-button color="primary" (click)="dialogRef.close()">
+    Ok
+  </button>
+</div>

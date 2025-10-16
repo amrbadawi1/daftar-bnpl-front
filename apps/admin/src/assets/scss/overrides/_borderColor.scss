@@ -1,0 +1,10 @@
+@use "../variables" as vars;
+
+// theme
+.mat-drawer-side {
+  border-right: 1px solid vars.$borderColor;
+}
+
+.border-white-50 {
+  border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
