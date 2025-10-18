@@ -1,0 +1,449 @@
+/* Google Fonts Fallback */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tajawal:wght@400;500;600;700&display=swap');
+
+/* PingARLT Font Loading (Arabic) */
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Thin.woff2') format('woff2'),
+       url('/fonts/PingARLT-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Regular.woff2') format('woff2'),
+       url('/fonts/PingARLT-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Medium.woff2') format('woff2'),
+       url('/fonts/PingARLT-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Bold.woff2') format('woff2'),
+       url('/fonts/PingARLT-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Heavy.woff2') format('woff2'),
+       url('/fonts/PingARLT-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PingARLT';
+  src: url('/fonts/PingARLT-Black.woff2') format('woff2'),
+       url('/fonts/PingARLT-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* DegularDisplay Font Loading */
+@font-face {
+  font-family: 'DegularDisplay';
+  src: url('/fonts/fonnts.com-DegularDisplayDemo-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DegularDisplay';
+  src: url('/fonts/fonnts.com-DegularDisplayDemo-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DegularDisplay';
+  src: url('/fonts/fonnts.com-DegularDisplayDemo-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===========================================
+   GLOBAL TYPOGRAPHY SYSTEM
+   =========================================== */
+
+/* Base HTML Setup */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: 'DegularDisplay', 'Inter', system-ui, sans-serif;
+  font-feature-settings: 'liga' 1, 'kern' 1, 'calt' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Arabic HTML Setup */
+html[dir="rtl"],
+html[lang="ar"] {
+  font-family: 'PingARLT', 'Tajawal', sans-serif;
+}
+
+body {
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* H1 - Hero Titles (700-900 weight) */
+h1 {
+  font-size: 2.25rem;        /* 36px - mobile */
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-family: inherit;
+  color: inherit;
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  h1 { font-size: 3rem; }    /* 48px - tablet */
+}
+
+@media (min-width: 1024px) {
+  h1 { 
+    font-size: 3.75rem;      /* 60px - desktop */
+    font-weight: 900;
+  }
+}
+
+/* H2 - Section Titles (500-700 weight) */
+h2 {
+  font-size: 1.875rem;       /* 30px - mobile */
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-family: inherit;
+  color: inherit;
+  margin: 0 0 0.875rem 0;
+}
+
+@media (min-width: 768px) {
+  h2 { 
+    font-size: 2.25rem;      /* 36px - tablet */
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 { font-size: 3rem; }    /* 48px - desktop */
+}
+
+/* H3 - Subsection Titles (500-700 weight) */
+h3 {
+  font-size: 1.5rem;         /* 24px - mobile */
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-family: inherit;
+  color: inherit;
+  margin: 0 0 0.75rem 0;
+}
+
+@media (min-width: 768px) {
+  h3 { font-size: 1.875rem; } /* 30px - tablet */
+}
+
+@media (min-width: 1024px) {
+  h3 { 
+    font-size: 2.25rem;       /* 36px - desktop */
+    font-weight: 700;
+  }
+}
+
+/* H4, H5, H6 - Additional Heading Levels */
+h4 {
+  font-size: 1.25rem;        /* 20px */
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin: 0 0 0.625rem 0;
+}
+
+h5, h6 {
+  font-size: 1.125rem;       /* 18px */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+/* P - Body Text (400 weight) - Updated to use span styling */
+p {
+  font-size: 1rem;           /* 16px - mobile */
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-family: inherit;
+  color: inherit;
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  p { font-size: 1.125rem; } /* 18px - tablet */
+}
+
+@media (min-width: 1024px) {
+  p { font-size: 1.25rem; }  /* 20px - desktop */
+}
+
+/* Span - All Text Elements (400 weight) */
+span {
+  font-size: 1rem;          /* 16px - mobile (body text size) */
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-family: inherit;
+  color: inherit;
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  span { font-size: 1.125rem; } /* 18px - tablet */
+}
+
+@media (min-width: 1024px) {
+  span { font-size: 1.25rem; }  /* 20px - desktop */
+}
+
+/* Small text / Captions - Use specific classes */
+span.text-small,
+span.text-caption {
+  font-size: 0.875rem;       /* 14px */
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  span.text-small,
+  span.text-caption { font-size: 1rem; }  /* 16px - tablet/desktop */
+}
+
+/* A - Links */
+a {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: #0ea5e9;            /* Primary color */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0284c7;
+  text-decoration: underline;
+}
+
+/* Button / CTA Styles (500-700 weight) */
+button, .btn {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-family: inherit;
+}
+
+@media (min-width: 768px) {
+  button, .btn { font-weight: 700; }
+}
+
+/* PingARLT - Primary Arabic Font */
+.font-arabic,
+.font-gt-arabic {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+  font-feature-settings: 'liga' 1, 'kern' 1, 'calt' 1;
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global Arabic font application for RTL content */
+[dir="rtl"],
+[dir="rtl"] * {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+  font-feature-settings: 'liga' 1, 'kern' 1, 'calt' 1;
+}
+
+
+/* Ensure all Arabic text uses PingARLT */
+[lang="ar"],
+[lang="ar"] * {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+  font-feature-settings: 'liga' 1, 'kern' 1, 'calt' 1;
+}
+
+/* Arabic-specific typography improvements */
+.font-arabic,
+.font-gt-arabic,
+[dir="rtl"],
+[dir="rtl"] *,
+[lang="ar"],
+[lang="ar"] * {
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+}
+
+/* Force PingARLT for all Arabic content */
+.arabic-text,
+.rtl-text {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+}
+
+/* Arabic page root styling */
+.arabic-page {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+}
+
+.arabic-page * {
+  font-family: 'PingARLT', Arial, sans-serif !important;
+}
+
+/* ===========================================
+   RTL / LTR SUPPORT
+   =========================================== */
+
+/* RTL Text Alignment */
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="ltr"] {
+  text-align: left;
+  direction: ltr;
+}
+
+/* RTL Font Application */
+[dir="rtl"] *,
+[lang="ar"] * {
+  font-family: 'PingARLT', 'Tajawal', sans-serif !important;
+}
+
+/* LTR Font Application */
+[dir="ltr"] *,
+[lang="en"] * {
+  font-family: 'DegularDisplay', 'Inter', system-ui, sans-serif !important;
+}
+
+/* RTL-specific typography adjustments */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[lang="ar"] h1,
+[lang="ar"] h2 {
+  letter-spacing: -0.01em; /* Slightly less tight for Arabic */
+}
+
+/* ===========================================
+   DARK MODE TYPOGRAPHY
+   =========================================== */
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: #f9fafb;  /* Light gray for headings */
+}
+
+.dark p {
+  color: #e5e7eb;  /* Slightly dimmer for body text */
+}
+
+.dark span {
+  color: #e5e7eb;  /* Same as body text for consistency */
+}
+
+.dark span.text-small,
+.dark span.text-caption {
+  color: #d1d5db;  /* Even dimmer for small text */
+}
+
+.dark a {
+  color: #38bdf8;  /* Brighter link color */
+}
+
+.dark a:hover {
+  color: #7dd3fc;
+}
+
+/* ===========================================
+   TYPOGRAPHY UTILITY CLASSES
+   =========================================== */
+
+/* Typography Utility Classes */
+.text-hero {
+  @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight;
+}
+
+.text-section {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-snug tracking-tight;
+}
+
+.text-subsection {
+  @apply text-2xl md:text-3xl lg:text-4xl font-semibold leading-normal;
+}
+
+.text-body {
+  @apply text-base md:text-lg lg:text-xl font-normal leading-relaxed;
+}
+
+.text-caption {
+  @apply text-sm md:text-base font-normal leading-snug;
+}
+
+.text-small {
+  @apply text-sm md:text-base font-normal leading-snug;
+}
+
+.btn-text {
+  @apply text-base font-semibold md:font-bold leading-normal;
+}
+
+/* Span-specific utility classes */
+span.text-hero {
+  @apply text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight;
+}
+
+span.text-section {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-snug tracking-tight;
+}
+
+span.text-subsection {
+  @apply text-2xl md:text-3xl lg:text-4xl font-semibold leading-normal;
+}
+
+span.text-body {
+  @apply text-base md:text-lg lg:text-xl font-normal leading-relaxed;
+}
+
+/* Custom scrollbar for webkit browsers */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
