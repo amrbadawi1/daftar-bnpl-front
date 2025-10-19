@@ -1,0 +1,291 @@
+{
+  "hero": {
+    "title": "Pace your payments",
+    "subtitle": "DaftarPay lets you split your purchases into up to 4 monthly payments with no interest, no late fees and always Shariah-compliant.",
+    "cta": "Get Started",
+    "appTitle": "Get the DaftarPay app",
+    "ratingText": "App store rating"
+  },
+  "features": {
+    "title": "Use DaftarPay anywhere you shop",
+    "checkout": {
+      "title": "At checkout",
+      "description": "Find the DaftarPay option at your favourite brands when you shop online.",
+      "cta": "Learn more"
+    },
+    "app": {
+      "title": "In the DaftarPay app",
+      "description": "Discover thousands of stores and products in one place.",
+      "cta": "Get the app"
+    },
+    "instore": {
+      "title": "In-store",
+      "description": "Use your DaftarPay card at participating retailers.",
+      "cta": "Learn more"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started in four simple steps and enjoy flexible payments today",
+    "steps": {
+      "shop": {
+        "title": "Shop & Select",
+        "description": "Browse your favorite stores and add items to your cart. Choose DaftarPay at checkout."
+      },
+      "split": {
+        "title": "Split Your Payment",
+        "description": "Automatically split your purchase into 4 equal payments over 6 weeks. No interest, no fees."
+      },
+      "enjoy": {
+        "title": "Enjoy Your Purchase",
+        "description": "Get your items immediately and pay over time. Manage everything in our easy-to-use app."
+      },
+      "noFees": {
+        "title": "No Hidden Fees",
+        "description": "Pay monthly with complete transparency. No surprises, just simple payments."
+      }
+    }
+  },
+  "trustedBy": {
+    "title": "Trusted By",
+    "partners": ["Temu", "Level Shoes", "Shein", "Amazon", "Noon"]
+  },
+  "cta": {
+    "title": "Start Your Journey Today",
+    "subtitle": "Sign up and experience the smarter way to pay.",
+    "button": "Sign Up Now"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How does BNPL work?",
+        "answer": "Split your purchase into 4 equal payments. Pay 25% upfront and the rest over 3 bi-weekly payments."
+      },
+      {
+        "question": "Are there any hidden fees?",
+        "answer": "All terms are transparent and upfront. No hidden fees, no surprises. What you see is what you pay."
+      },
+      {
+        "question": "Is approval instant?",
+        "answer": "Quick and seamless approval process. Most applications are approved within seconds."
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Get the latest news and exclusive offers delivered to your inbox.",
+    "placeholder": "Enter your email address",
+    "button": "Subscribe"
+  },
+  "shopBrands": {
+    "title": "Shop your favorite stores and pay in up to 24 months",
+    "subtitle": "Stay up to date with the latest offers and new stores. Shop with ease using DaftarPay's flexible payment plans.",
+    "button": "Browse Brands"
+  },
+  "shop": {
+    "hero": {
+      "title": "Find a store. Pay in 4.",
+      "subtitle": "Discover where you can use DaftarPay to pay over time and get exclusive deals",
+      "searchPlaceholder": "Search for a store"
+    },
+    "topDeals": {
+      "title": "Top Deals",
+      "deals": [
+        {
+          "store": "Amazon",
+          "type": "Cashback",
+          "discount": "4.5%",
+          "conditions": "Up to"
+        },
+        {
+          "store": "H&M",
+          "type": "Conditions",
+          "discount": "5%"
+        },
+        {
+          "store": "Level Shoes",
+          "type": "Conditions",
+          "discount": "10%"
+        }
+      ],
+      "viewAll": "View all"
+    },
+    "featuredStores": {
+      "title": "Featured stores",
+      "stores": [
+        {
+          "name": "SHEIN",
+          "type": "Online only"
+        },
+        {
+          "name": "noon",
+          "type": "Online only"
+        },
+        {
+          "name": "Amazon",
+          "type": "Online only"
+        },
+        {
+          "name": "Temu",
+          "type": "Online only"
+        },
+        {
+          "name": "Wego",
+          "type": "Online & in-store"
+        },
+        {
+          "name": "Almosafer",
+          "type": "Online only"
+        },
+        {
+          "name": "Trendyol",
+          "type": "Online only"
+        },
+        {
+          "name": "Namshi",
+          "type": "Online only"
+        }
+      ],
+      "viewAll": "View all"
+    },
+    "appFeatures": {
+      "title": "Take shopping to the next level with the DaftarPay app",
+      "subtitle": "Explore the world's top stores with hundreds of thousands of products and all the deals in one app.",
+      "features": [
+        {
+          "title": "Find where you can pay in 4",
+          "description": "Search for the brands and products you love and find where to pay with DaftarPay, online or in-store."
+        },
+        {
+          "title": "All the deals in one app",
+          "description": "Deals, codes, coupons–whatever you call it. We got it. You'll never miss on savings with DaftarPay."
+        },
+        {
+          "title": "Always get the best price",
+          "description": "Compare prices across stores or save your favourites and get alerts when there's a sale."
+        }
+      ]
+    },
+    "categories": {
+      "title": "Shop by category",
+      "categories": [
+        "Fashion",
+        "Beauty & Health",
+        "Toys & Games",
+        "Electronics",
+        "Home & Appliances",
+        "Fitness & Outdoor",
+        "Travel"
+      ],
+      "viewAll": "View all"
+    },
+    "cta": {
+      "title": "Welcome to a new era of shopping",
+      "appTitle": "Get the DaftarPay app",
+      "rating": "4.8",
+      "ratingText": "App store rating"
+    }
+  },
+  "services": {
+    "title": "How DaftarPay works for you",
+    "subtitle": "Simple, transparent payments in four easy steps",
+    "steps": [
+      {
+        "id": "checkout",
+        "title": "Check out with DaftarPay",
+        "description": "Choose DaftarPay at checkout and instantly see your payment options.",
+        "image": "https://www.paypalobjects.com/marketing/web23/us/en/ppe/bnpl/product-scroll-1_size-all.png?quality=75&width=1800&format=webp"
+      },
+      {
+        "id": "payIn4",
+        "title": "Pay in 4 or monthly",
+        "description": "Split your purchase into 4 interest-free payments or choose monthly installments that work for you.",
+        "image": "https://www.paypalobjects.com/marketing/web23/us/en/ppe/bnpl/product-scroll-2_size-all.png?quality=75&width=1800&format=webp"
+      },
+      {
+        "id": "decision",
+        "title": "Get a decision",
+        "description": "Receive instant approval with no impact to your credit score.",
+        "image": "https://www.paypalobjects.com/marketing/web23/us/en/ppe/bnpl/product-scroll-3_size-all.png?quality=75&width=1800&format=webp"
+      }
+    ]
+  },
+  "features": {
+    "title": "Use DaftarPay anywhere you shop",
+    "checkout": {
+      "title": "At checkout",
+      "description": "Find the DaftarPay option at your favourite brands when you shop online.",
+      "cta": "Learn more"
+    },
+    "app": {
+      "title": "In the DaftarPay app",
+      "description": "Discover thousands of stores and products in one place.",
+      "cta": "Get the app"
+    },
+    "instore": {
+      "title": "In-store",
+      "description": "Use your DaftarPay card at participating retailers.",
+      "cta": "Learn more"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "DaftarPay",
+      "address": {
+        "line1": "4323 Anas Ibn Malik",
+        "line2": "Al Narjis District",
+        "line3": "8861-13324",
+        "city": "Riyadh",
+        "country": "Kingdom of Saudi Arabia"
+      },
+      "contact": {
+        "help": "Need help? Call 800 111 0999. Available 24/7",
+        "vat": "Our VAT number: 310469407100003",
+        "regulatory": "DaftarPay Financing Company JSC CR No. 1010614810, regulated and permitted by The Saudi Central Bank (SAMA) under permit No. 76 / 202307"
+      },
+      "followUs": "Follow us"
+    },
+    "about": {
+      "title": "About",
+      "links": [
+        "Contact",
+        "Careers", 
+        "Newsroom",
+        "Shariah compliance",
+        "Legal documents",
+        "Privacy Policy",
+        "Consumer protection principles",
+        "Whistleblowing",
+        "Financial reports"
+      ]
+    },
+    "shoppers": {
+      "title": "Shoppers",
+      "links": [
+        "Shops",
+        "Get the app",
+        "How it works",
+        "DaftarPay Care",
+        "Shopper FAQs"
+      ]
+    },
+    "businesses": {
+      "title": "Businesses",
+      "links": [
+        "Sell with DaftarPay",
+        "Business login",
+        "Case studies",
+        "Benchmarks",
+        "Research",
+        "Merchant FAQs"
+      ]
+    },
+    "app": {
+      "title": "Get the DaftarPay app",
+      "rating": "4.8",
+      "ratingText": "App store rating"
+    },
+    "copyright": "© 2024 DaftarPay Platform. All rights reserved."
+  }
+}

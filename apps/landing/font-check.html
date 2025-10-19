@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Check - GretaArabic</title>
+    <style>
+        /* GretaArabic Font Loading */
+        @font-face {
+            font-family: 'GretaArabic';
+            src: url('/fonts/GretaArabic.woff2') format('woff2'),
+                 url('/fonts/GretaArabic.woff') format('woff'),
+                 url('/fonts/GretaArabic.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'GretaArabic';
+            src: url('/fonts/GretaArabic-Light.woff2') format('woff2'),
+                 url('/fonts/GretaArabic-Light.woff') format('woff'),
+                 url('/fonts/GretaArabic-Light.ttf') format('truetype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'GretaArabic';
+            src: url('/fonts/GretaArabic-Medium.woff2') format('woff2'),
+                 url('/fonts/GretaArabic-Medium.woff') format('woff'),
+                 url('/fonts/GretaArabic-Medium.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'GretaArabic';
+            src: url('/fonts/GretaArabic-Bold.woff2') format('woff2'),
+                 url('/fonts/GretaArabic-Bold.woff') format('woff'),
+                 url('/fonts/GretaArabic-Bold.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .greta-light { font-family: 'GretaArabic', Arial, sans-serif; font-weight: 300; }
+        .greta-regular { font-family: 'GretaArabic', Arial, sans-serif; font-weight: 400; }
+        .greta-medium { font-family: 'GretaArabic', Arial, sans-serif; font-weight: 500; }
+        .greta-bold { font-family: 'GretaArabic', Arial, sans-serif; font-weight: 700; }
+
+        /* Apply GretaArabic to all h2 headings */
+        h2 {
+            font-family: 'GretaArabic', Arial, sans-serif;
+            font-weight: 700;
+        }
+
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+
+        .font-info {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #2196F3;
+        }
+
+        .rtl-text {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .font-size-large { font-size: 32px; }
+        .font-size-medium { font-size: 24px; }
+        .font-size-small { font-size: 18px; }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-success { background-color: #4CAF50; }
+        .status-error { background-color: #f44336; }
+        .status-warning { background-color: #ff9800; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Font Loading Check - GretaArabic</h1>
+    
+    <div class="font-info">
+        <h3>📊 Font Loading Status</h3>
+        <div id="font-status">Checking fonts...</div>
+        <div id="font-details"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>🎯 Arabic Text Test (GretaArabic)</h2>
+        <div class="rtl-text">
+            <p class="greta-light font-size-large">وزن خفيف - Light Weight (300)</p>
+            <p class="greta-regular font-size-large">وزن عادي - Regular Weight (400)</p>
+            <p class="greta-medium font-size-large">وزن متوسط - Medium Weight (500)</p>
+            <p class="greta-bold font-size-large">وزن عريض - Bold Weight (700)</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📝 Sample Arabic Content</h2>
+        <div class="rtl-text">
+            <p class="greta-medium font-size-large">مرحبا بك في دفعار باي</p>
+            <p class="greta-bold font-size-medium">قسم مشترياتك حتى 24 شهر من متاجرك المفضلة</p>
+            <p class="greta-light font-size-small">تريح بالك بساطة في كل خطوة، وتواجد في كل مكان مع متاجرك المفضلة</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🔄 Font Comparison</h2>
+        <div class="rtl-text">
+            <p><strong>With GretaArabic:</strong></p>
+            <p class="greta-medium font-size-large">عيش تجربة دفع مختلفة مع تمارا بثقة</p>
+            <p><strong>Without GretaArabic (Arial fallback):</strong></p>
+            <p class="font-size-large">عيش تجربة دفع مختلفة مع تمارا بثقة</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🌐 Mixed Content Test</h2>
+        <div class="rtl-text">
+            <p class="greta-medium font-size-medium">مرحبا - Hello - مرحبا</p>
+            <p class="greta-bold font-size-medium">DaftarPay - دفعار باي - BNPL</p>
+        </div>
+    </div>
+
+    <script>
+        // Font loading detection
+        function checkFontLoading() {
+            const fonts = [
+                { name: 'GretaArabic Light', weight: 300 },
+                { name: 'GretaArabic Regular', weight: 400 },
+                { name: 'GretaArabic Medium', weight: 500 },
+                { name: 'GretaArabic Bold', weight: 700 }
+            ];
+
+            let loadedCount = 0;
+            let totalCount = fonts.length;
+            let statusHtml = '';
+
+            fonts.forEach(font => {
+                const testElement = document.createElement('div');
+                testElement.style.fontFamily = 'GretaArabic, Arial, sans-serif';
+                testElement.style.fontWeight = font.weight;
+                testElement.style.fontSize = '16px';
+                testElement.style.position = 'absolute';
+                testElement.style.left = '-9999px';
+                testElement.textContent = 'Test';
+                document.body.appendChild(testElement);
+
+                const computedStyle = window.getComputedStyle(testElement);
+                const fontFamily = computedStyle.fontFamily;
+                
+                document.body.removeChild(testElement);
+
+                const isLoaded = fontFamily.includes('GretaArabic');
+                if (isLoaded) loadedCount++;
+
+                statusHtml += `
+                    <div style="margin: 5px 0;">
+                        <span class="status-indicator ${isLoaded ? 'status-success' : 'status-error'}"></span>
+                        ${font.name} (${font.weight}): ${isLoaded ? '✅ Loaded' : '❌ Failed'}
+                    </div>
+                `;
+            });
+
+            const statusDiv = document.getElementById('font-status');
+            const detailsDiv = document.getElementById('font-details');
+
+            if (loadedCount === totalCount) {
+                statusDiv.innerHTML = `
+                    <span class="status-indicator status-success"></span>
+                    <strong>✅ All GretaArabic fonts loaded successfully!</strong>
+                `;
+                statusDiv.style.color = 'green';
+            } else if (loadedCount > 0) {
+                statusDiv.innerHTML = `
+                    <span class="status-indicator status-warning"></span>
+                    <strong>⚠️ Partial loading: ${loadedCount}/${totalCount} fonts loaded</strong>
+                `;
+                statusDiv.style.color = 'orange';
+            } else {
+                statusDiv.innerHTML = `
+                    <span class="status-indicator status-error"></span>
+                    <strong>❌ GretaArabic fonts failed to load</strong>
+                `;
+                statusDiv.style.color = 'red';
+            }
+
+            detailsDiv.innerHTML = statusHtml;
+        }
+
+        // Check font loading after page loads
+        window.addEventListener('load', () => {
+            setTimeout(checkFontLoading, 1000);
+        });
+
+        // Also check immediately
+        checkFontLoading();
+    </script>
+</body>
+</html>
