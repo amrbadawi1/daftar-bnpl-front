@@ -3,7 +3,7 @@ import HeroSection from '../landing/components/HeroSection';
 import FeaturesSection from '../landing/components/FeaturesSection';
 import ServicesSection from '../landing/components/ServicesSection';
 import HowItWorksSection from '../landing/components/HowItWorksSection';
-import ShopBrandsSection from '../landing/components/ShopBrandsSection';
+import ShopStoresSection from '../landing/components/ShopStoresSection';
 import TrustedByDynamicMarquee from '../landing/components/TrustedByDynamicMarquee';
 import CTASection from '../landing/components/CTASection';
 import FAQSection from '../landing/components/FAQSection';
@@ -24,13 +24,13 @@ export const metadata = {
 
 export default function LandingPageEN() {
   return (
-    <div className="font-sans antialiased">
+    <div className="font-poppins antialiased">
       <Navbar />
       <HeroSection t={enTranslations} locale="en" />
       <FeaturesSection t={enTranslations} locale="en" />
       <ServicesSection t={enTranslations} locale="en" />
       <HowItWorksSection t={enTranslations} locale="en" />
-      <ShopBrandsSection t={enTranslations} locale="en" />
+      <ShopStoresSection t={enTranslations} locale="en" />
       <TrustedByDynamicMarquee t={enTranslations} />
       <CTASection t={enTranslations} />
       <FAQSection t={enTranslations} />

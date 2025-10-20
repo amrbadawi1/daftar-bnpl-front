@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function ShopPageEN() {
   return (
-    <div className="font-sans antialiased">
+    <div className="font-poppins antialiased">
       <Navbar />
       <ShopHeroSection t={enTranslations} locale="en" />
       <TopDealsSection t={enTranslations} locale="en" />

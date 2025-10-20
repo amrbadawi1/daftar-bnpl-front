@@ -3,7 +3,7 @@ import HeroSection from '../landing/components/HeroSection';
 import FeaturesSection from '../landing/components/FeaturesSection';
 import ServicesSection from '../landing/components/ServicesSection';
 import HowItWorksSection from '../landing/components/HowItWorksSection';
-import ShopBrandsSection from '../landing/components/ShopBrandsSection';
+import ShopStoresSection from '../landing/components/ShopStoresSection';
 import TrustedByDynamicMarquee from '../landing/components/TrustedByDynamicMarquee';
 import CTASection from '../landing/components/CTASection';
 import FAQSection from '../landing/components/FAQSection';
@@ -30,7 +30,7 @@ export default function LandingPageAR() {
       <FeaturesSection t={arTranslations} locale="ar" />
       <ServicesSection t={arTranslations} locale="ar" />
       <HowItWorksSection t={arTranslations} locale="ar" />
-      <ShopBrandsSection t={arTranslations} locale="ar" />
+      <ShopStoresSection t={arTranslations} locale="ar" />
       <TrustedByDynamicMarquee t={arTranslations} />
       <CTASection t={arTranslations} />
       <FAQSection t={arTranslations} />

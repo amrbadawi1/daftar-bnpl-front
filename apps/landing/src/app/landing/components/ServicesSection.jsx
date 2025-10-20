@@ -322,7 +322,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="inline-block"
           >
-            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
               {t.services.title}
             </h2>
           </motion.div>
@@ -330,7 +330,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-sans'}`}
+            className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-poppins'}`}
           >
             {t.services.subtitle}
           </motion.p>
@@ -368,7 +368,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                       activeStep === index 
                         ? 'text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-4xl lg:text-5xl' 
                         : 'text-gray-500 dark:text-gray-400 text-3xl lg:text-4xl'
-                    } ${isRTL ? 'font-ping':'font-sans'}`}
+                    } ${isRTL ? 'font-ping':'font-poppins'}`}
                     whileHover={{ scale: 1.02 }}
                   >
                     {step.title}
@@ -380,7 +380,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                         activeStep === index 
                           ? 'text-blue-600 dark:text-blue-400' 
                           : 'text-gray-400 dark:text-gray-500'
-                      } ${isRTL ? 'font-ping':'font-sans'}`}
+                      } ${isRTL ? 'font-ping':'font-poppins'}`}
                     >
                       {step.subtitle}
                     </motion.p>
@@ -391,7 +391,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                       activeStep === index 
                         ? 'text-gray-700 dark:text-gray-300 opacity-100 max-h-96' 
                         : 'text-gray-500 dark:text-gray-400 opacity-0 max-h-0 overflow-hidden'
-                    } ${isRTL ? 'font-ping':'font-sans'}`}
+                    } ${isRTL ? 'font-ping':'font-poppins'}`}
                     animate={{
                       opacity: activeStep === index ? 1 : 0,
                       maxHeight: activeStep === index ? '24rem' : '0rem',
@@ -518,7 +518,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                     activeStep === index 
                       ? 'text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text' 
                       : 'text-gray-900 dark:text-white'
-                  } ${isRTL ? 'font-ping' : 'font-sans'}`}
+                  } ${isRTL ? 'font-ping' : 'font-poppins'}`}
                 >
                   {step.title}
                 </motion.h3>
@@ -529,7 +529,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                       activeStep === index 
                         ? 'text-blue-600 dark:text-blue-400' 
                         : 'text-gray-600 dark:text-gray-300'
-                    } ${isRTL ? 'font-ping' : 'font-sans'}`}
+                    } ${isRTL ? 'font-ping' : 'font-poppins'}`}
                   >
                     {step.subtitle}
                   </motion.p>
@@ -540,7 +540,7 @@ export default function ServicesSection({ t, locale = 'en' }) {
                     activeStep === index 
                       ? 'text-gray-700 dark:text-gray-300 opacity-100 max-h-96' 
                       : 'text-gray-600 dark:text-gray-300 opacity-0 max-h-0 overflow-hidden'
-                  } ${isRTL ? 'font-ping' : 'font-sans'}`}
+                  } ${isRTL ? 'font-ping' : 'font-poppins'}`}
                   animate={{
                     opacity: activeStep === index ? 1 : 0,
                     maxHeight: activeStep === index ? '24rem' : '0rem',
