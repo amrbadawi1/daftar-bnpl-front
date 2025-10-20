@@ -231,7 +231,7 @@ export default function HowItWorks({ t, locale = 'en' }) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
-          className={`text-center mb-20 sm:mb-24 lg:mb-32 relative z-10 ${isRTL ? 'font-ping' : 'font-sans'} ${isRTL ? 'rtl' : 'ltr'}`}
+          className={`text-center mb-20 sm:mb-24 lg:mb-32 relative z-10 ${isRTL ? 'font-ping' : 'font-poppins'} ${isRTL ? 'rtl' : 'ltr'}`}
           style={isRTL ? { 
             lineHeight: '2.0',
             paddingBottom: '2.5rem',
@@ -247,7 +247,7 @@ export default function HowItWorks({ t, locale = 'en' }) {
           >
             <h1 
               ref={titleRef}
-              className={`text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black tracking-tight ${isRTL ? 'leading-relaxed' : 'leading-tight'} bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 ${isRTL ? 'py-8 pb-12' : 'py-6'} ${isRTL ? 'font-ping' : 'font-sans'} ${isRTL ? 'text-right' : 'text-center'} ${isRTL ? 'px-4' : ''}`}
+              className={`text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black tracking-tight ${isRTL ? 'leading-relaxed' : 'leading-tight'} bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 ${isRTL ? 'py-8 pb-12' : 'py-6'} ${isRTL ? 'font-ping' : 'font-poppins'} ${isRTL ? 'text-right' : 'text-center'} ${isRTL ? 'px-4' : ''}`}
               style={isRTL ? { 
                 lineHeight: '1.8',
                 paddingBottom: '3rem',
@@ -265,7 +265,7 @@ export default function HowItWorks({ t, locale = 'en' }) {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className={`text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto ${isRTL ? 'leading-loose' : 'leading-relaxed'} font-medium ${isRTL ? 'font-ping' : 'font-sans'} ${isRTL ? 'text-right' : 'text-center'} ${isRTL ? 'px-4 py-4' : ''}`}
+            className={`text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto ${isRTL ? 'leading-loose' : 'leading-relaxed'} font-medium ${isRTL ? 'font-ping' : 'font-poppins'} ${isRTL ? 'text-right' : 'text-center'} ${isRTL ? 'px-4 py-4' : ''}`}
             style={isRTL ? { 
               lineHeight: '2.2',
               paddingBottom: '2rem',
@@ -299,7 +299,7 @@ export default function HowItWorks({ t, locale = 'en' }) {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: index * 0.15, ease: "easeOut" }}
-                  className={`flex-1 ${isRTL ? 'text-right' : 'text-center lg:text-left'} ${isRTL ? 'font-ping' : 'font-sans'} ${isRTL ? 'pr-4 pl-2' : 'pl-4 pr-2'}`}
+                  className={`flex-1 ${isRTL ? 'text-right' : 'text-center lg:text-left'} ${isRTL ? 'font-ping' : 'font-poppins'} ${isRTL ? 'pr-4 pl-2' : 'pl-4 pr-2'}`}
                   style={isRTL ? { 
                     lineHeight: '1.8',
                     paddingBottom: '2rem',

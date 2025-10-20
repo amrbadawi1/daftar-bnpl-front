@@ -1,4 +1,11 @@
 import './global.css';
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins',
+});
 
 export const metadata = {
   title: 'Welcome to landing',
@@ -12,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+      <body className={`min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 ${poppins.variable}`}>
         {children}
       </body>
     </html>

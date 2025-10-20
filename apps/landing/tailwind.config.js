@@ -46,7 +46,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['DegularDisplay', 'Inter', 'system-ui', 'sans-serif'],
+        'poppins': ['var(--font-poppins)', 'Poppins', 'system-ui', 'sans-serif'],
         'arabic': ['PingARLT', 'Tajawal', 'sans-serif'],
         'ping': ['PingARLT', 'Tajawal', 'sans-serif'],
       },

@@ -78,11 +78,12 @@
     "placeholder": "Enter your email address",
     "button": "Subscribe"
   },
-  "shopBrands": {
-    "title": "Shop your favorite stores and pay in up to 24 months",
-    "subtitle": "Stay up to date with the latest offers and new stores. Shop with ease using DaftarPay's flexible payment plans.",
-    "button": "Browse Brands"
-  },
+        "shopStores": {
+          "headline": "These stores already use DaftarPay",
+          "subtitle": "Discover leading stores that trust DaftarPay to empower their customers with flexible payments",
+          "button": "Browse All Stores",
+          "partnerBadge": "Partner Stores"
+        },
   "shop": {
     "hero": {
       "title": "Find a store. Pay in 4.",

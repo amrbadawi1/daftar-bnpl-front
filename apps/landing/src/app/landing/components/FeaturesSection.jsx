@@ -121,7 +121,7 @@ export default function FeaturesSection({ t, locale = 'en' }) {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="inline-block"
           >
-            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
               {t.features.title}
             </h2>
           </motion.div>
@@ -190,13 +190,13 @@ export default function FeaturesSection({ t, locale = 'en' }) {
                     <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${feature.bgColor} flex items-center justify-center mr-4 ${isRTL ? 'ml-4 mr-0' : 'mr-4'}`}>
                       <feature.icon className={`w-6 h-6 ${feature.iconColor}`} />
                     </div>
-                    <h5 className={`text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white ${isRTL ? 'font-ping' : 'font-sans'}`}>
+                    <h5 className={`text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white ${isRTL ? 'font-ping' : 'font-poppins'}`}>
                       {feature.title}
                     </h5>
                   </div>
                   
                   <motion.span 
-                    className={`text-body-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6 block ${isRTL ? 'font-ping' : 'font-sans'}`}
+                    className={`text-body-base text-gray-600 dark:text-gray-300 leading-relaxed mb-6 block ${isRTL ? 'font-ping' : 'font-poppins'}`}
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ 
                       opacity: hoveredIndex === index ? 1 : 0,
@@ -212,7 +212,7 @@ export default function FeaturesSection({ t, locale = 'en' }) {
                   
                   <Link 
                     href={feature.id === 'app' ? '/api/download' : '#'}
-                    className={`inline-flex items-center text-gray-900 dark:text-white hover:text-pink-600 dark:hover:text-pink-400 font-semibold text-body-lg transition-colors duration-200 ${isRTL ? 'font-ping' : 'font-sans'}`}
+                    className={`inline-flex items-center text-gray-900 dark:text-white hover:text-pink-600 dark:hover:text-pink-400 font-semibold text-body-lg transition-colors duration-200 ${isRTL ? 'font-ping' : 'font-poppins'}`}
                     aria-label={`${feature.cta} - ${feature.title}`}
                   >
                     {feature.cta}
@@ -310,13 +310,13 @@ export default function FeaturesSection({ t, locale = 'en' }) {
                       <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${feature.bgColor} flex items-center justify-center mr-3 ${isRTL ? 'ml-3 mr-0' : 'mr-3'}`}>
                         <feature.icon className={`w-5 h-5 ${feature.iconColor}`} />
                       </div>
-                      <h5 className={`text-lg font-bold text-gray-900 dark:text-white ${isRTL ? 'font-ping' : 'font-sans'}`}>
+                      <h5 className={`text-lg font-bold text-gray-900 dark:text-white ${isRTL ? 'font-ping' : 'font-poppins'}`}>
                         {feature.title}
                       </h5>
                     </div>
                     
                     <motion.span 
-                      className={`text-body-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-4 block ${isRTL ? 'font-ping' : 'font-sans'}`}
+                      className={`text-body-sm text-gray-600 dark:text-gray-300 leading-relaxed mb-4 block ${isRTL ? 'font-ping' : 'font-poppins'}`}
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ 
                         opacity: hoveredIndex === index ? 1 : 0,
@@ -332,7 +332,7 @@ export default function FeaturesSection({ t, locale = 'en' }) {
                     
                     <Link 
                       href={feature.id === 'app' ? '/api/download' : '#'}
-                      className={`inline-flex items-center text-gray-900 dark:text-white hover:text-pink-600 dark:hover:text-pink-400 font-semibold text-body-md transition-colors duration-200 ${isRTL ? 'font-ping' : 'font-sans'}`}
+                      className={`inline-flex items-center text-gray-900 dark:text-white hover:text-pink-600 dark:hover:text-pink-400 font-semibold text-body-md transition-colors duration-200 ${isRTL ? 'font-ping' : 'font-poppins'}`}
                       aria-label={`${feature.cta} - ${feature.title}`}
                     >
                       {feature.cta}

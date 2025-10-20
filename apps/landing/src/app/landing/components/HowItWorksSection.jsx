@@ -186,10 +186,10 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Title */}
           <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
               {t?.howItWorks?.title || "How It Works"}
             </h2>
-            <span className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-sans'}`}>
+            <span className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-poppins'}`}>
               {t?.howItWorks?.subtitle || "Get started in four simple steps and enjoy flexible payments today"}
             </span>
           </div>
@@ -216,7 +216,7 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
                     </div>
                     
                     {/* Title */}
-                    <h5 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text ${isRTL ? 'font-ping' : 'font-sans'}`}
+                    <h5 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text ${isRTL ? 'font-ping' : 'font-poppins'}`}
                         style={{ 
                           lineHeight: isRTL ? '1.4' : '1.3',
                           paddingBottom: isRTL ? '0.6rem' : '0.4rem',
@@ -229,7 +229,7 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
                     </h5>
                     
                     {/* Description */}
-                    <span className={`text-base leading-relaxed text-gray-700 dark:text-gray-300 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+                    <span className={`text-base leading-relaxed text-gray-700 dark:text-gray-300 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
                       {step.description}
                     </span>
                   </div>
@@ -286,10 +286,10 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div ref={titleRef} className="text-center mb-12 sm:mb-16 lg:mb-20">
-            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+            <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-100 bg-clip-text text-transparent mb-8 py-4 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
             {t?.howItWorks?.title || "How It Works"}
           </h2>
-          <span className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-sans'}`}>
+          <span className={`text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed font-medium ${isRTL ? 'font-ping' : 'font-poppins'}`}>
             {t?.howItWorks?.subtitle || "Get started in four simple steps and enjoy flexible payments today"}
           </span>
         </div>
@@ -316,7 +316,7 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
                   </div>
                   
                   {/* Title */}
-                  <h5 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text ${isRTL ? 'font-ping' : 'font-sans'}`}
+                  <h5 className={`text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text ${isRTL ? 'font-ping' : 'font-poppins'}`}
                       style={{ 
                         lineHeight: isRTL ? '1.4' : '1.3',
                         paddingBottom: isRTL ? '0.6rem' : '0.4rem',
@@ -329,7 +329,7 @@ export default function HowItWorksSection({ t, locale = 'en' }) {
                   </h5>
                   
                   {/* Description */}
-                  <span className={`text-base leading-relaxed text-gray-700 dark:text-gray-300 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+                  <span className={`text-base leading-relaxed text-gray-700 dark:text-gray-300 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
                     {step.description}
                   </span>
                 </div>

@@ -8,7 +8,7 @@
  * @returns {string} - The appropriate font class
  */
 export const getFontClass = (locale) => {
-  return locale === 'ar' ? 'font-ping' : 'font-sans';
+  return locale === 'ar' ? 'font-ping' : 'font-poppins';
 };
 
 /**

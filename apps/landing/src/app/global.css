@@ -5,7 +5,7 @@
 
     html {
       -webkit-text-size-adjust: 100%;
-      font-family: 'DegularDisplay', system-ui, sans-serif;
+      font-family: var(--font-poppins), 'Poppins', 'DegularDisplay', system-ui, sans-serif;
       line-height: 1.5;
       tab-size: 4;
       scroll-behavior: smooth;
@@ -13,6 +13,12 @@
     
     html[dir="rtl"] {
       font-family: 'PingARLT', Arial, sans-serif;
+    }
+    
+    /* Ensure Poppins is applied to LTR content */
+    html[dir="ltr"], 
+    html:not([dir="rtl"]) {
+      font-family: var(--font-poppins), 'Poppins', 'DegularDisplay', system-ui, sans-serif;
     }
     
     h1, h2, h3, h4, h5, h6 {

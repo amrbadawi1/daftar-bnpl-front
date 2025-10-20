@@ -30,7 +30,7 @@ export default function HeroSection({ t, locale = 'en' }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className={`text-display-sm sm:text-display-md lg:text-display-lg font-black mb-6 text-white dark:text-white drop-shadow-lg ${isRTL ? 'font-ping' : 'font-ping'}`}
+          className={`text-display-sm sm:text-display-md lg:text-display-lg font-black mb-6 text-white dark:text-white drop-shadow-lg ${isRTL ? 'font-ping' : 'font-poppins'}`}
         >
           {t.hero.title}
         </motion.h1>
@@ -40,7 +40,7 @@ export default function HeroSection({ t, locale = 'en' }) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className={`text-body-lg sm:text-body-xl mb-12 max-w-3xl text-white/90 dark:text-white/90 ${isRTL ? 'font-ping' : 'font-sans'}`}
+          className={`text-body-lg sm:text-body-xl mb-12 max-w-3xl text-white/90 dark:text-white/90 ${isRTL ? 'font-ping' : 'font-poppins'}`}
         >
           {t.hero.subtitle}
         </motion.p>
@@ -65,7 +65,7 @@ export default function HeroSection({ t, locale = 'en' }) {
 
             {/* App Info Content */}
             <div className={`text-white dark:text-white ${isRTL ? 'text-right' : 'text-left'} flex-1`}>
-              <h3 className={`text-display-sm font-bold mb-3 ${isRTL ? 'font-ping' : 'font-sans'}`}>
+              <h3 className={`text-display-sm font-bold mb-3 ${isRTL ? 'font-ping' : 'font-poppins'}`}>
                 {t.hero.appTitle}
               </h3>
               <p className="text-white/80 dark:text-white/80 text-body-sm mb-6">
@@ -75,7 +75,7 @@ export default function HeroSection({ t, locale = 'en' }) {
               {/* CTA Button */}
               <Link 
                 href="/api/download"
-                className={`inline-flex items-center justify-center px-8 py-4 bg-white/20 dark:bg-white/10 hover:bg-white/30 dark:hover:bg-white/20 border border-white/30 dark:border-white/20 rounded-xl font-semibold text-white dark:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg backdrop-blur-sm text-body-md ${isRTL ? 'font-ping' : 'font-sans'}`}
+                className={`inline-flex items-center justify-center px-8 py-4 bg-white/20 dark:bg-white/10 hover:bg-white/30 dark:hover:bg-white/20 border border-white/30 dark:border-white/20 rounded-xl font-semibold text-white dark:text-white transition-all duration-300 hover:scale-105 hover:shadow-lg backdrop-blur-sm text-body-md ${isRTL ? 'font-ping' : 'font-poppins'}`}
               >
                 {t.hero.cta}
               </Link>
